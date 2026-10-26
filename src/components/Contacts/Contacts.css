@@ -1,0 +1,178 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contacts{
+  width: 100vw;
+  height: 100vh;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    font-family: 'Poppins', sans-serif; 
+   
+}
+main{
+  
+  width: 80vw;
+  height: 90vh;
+ 
+}
+.contacts-content{
+
+height: 170px;
+width: 100%;
+text-align: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+
+p{
+  color: rgba(100, 116, 139, 1);}
+  
+}
+h1{
+  font-weight:700 ;
+  font-size: 44px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+ 
+}
+.contacts-main{
+ 
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+
+  
+}
+.contacts-sec1{
+
+  height: 85%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: start;
+  gap: 30px;
+  
+
+}
+.contacts-sec2{
+ 
+  height: 85%;
+  width: 40%;
+ 
+  
+}
+.icons{
+  background-color: rgba(90, 33, 182, 0.11);
+  height: 48px;
+  width: 48px;
+  border-radius: 13px;
+  border: 1px solid rgba(91, 33, 182, 0.2);
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items{
+  display: flex;
+ gap: 17px;
+  justify-content: start;
+}
+.txt{
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+ h3{
+  line-height: 1.7;
+ }
+ p{
+  color: rgba(100, 116, 139, 1);
+ }
+}
+
+form{
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.02);
+ 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  
+}
+.form-header{
+  display: flex;
+justify-content: start;
+
+align-items: center;
+width: 500px;
+height: 90px;
+h3{
+  font-style: bold;
+  font-weight: 600;
+  
+}
+}
+input{width: 100%;
+  height: 80px;
+  border: none;
+  text-indent: 16px;
+  font-size: 17px;
+  font-size: 900;
+  border: none;
+  outline: none;
+  
+ 
+}
+input:hover, textarea:hover{
+  border: none;
+}
+label{
+ 
+  font-weight: 550;
+  font-size: 15px;
+  color: rgba(15, 23, 43, 1);
+}
+textarea{
+  width: 100%;
+  height: 100px;
+  border: none;
+  outline: none;
+padding: 20px;
+
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+ 
+}
+ button {
+  width: 80%;
+  height: 42px;
+  background: #6022b8;
+  color: white;
+  border: none;
+  padding: 12px;
+ border-radius: 12px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-top: 30px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+i{
+  color:  rgba(91, 33, 182, 1); 
+  font-size: 21px;
+}
+ button:hover {
+  background: #4c1699;
+}
+

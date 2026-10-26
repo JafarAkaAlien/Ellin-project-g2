@@ -1,8 +1,10 @@
 import React from 'react'
+import Contacts from './components/Contacts/Contacts'
+
 
 const App = () => {
   return (
-    <div>Salam G1, ugurlar</div>
+    <div><Contacts/></div>
   )
 }
 
