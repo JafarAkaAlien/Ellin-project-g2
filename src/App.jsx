@@ -1,9 +1,8 @@
 import React from 'react'
-import Terefdashlar from './components/Terefdashlar/Terefdashlar'
 
 const App = () => {
   return (
-    <Terefdashlar/>
+    <div>Salam G1, ugurlar</div>
   )
 }
 
