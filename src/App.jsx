@@ -1,9 +1,16 @@
 import React from 'react'
-import Info from './components/Info/Info.jsx'
+import Header from './components/Header/Header.jsx'
+import './components/Header/Header.css'
+import Footer from './components/Footer/Footer.jsx'
+
 
 const App = () => {
   return (
-    <Info />
+    <>
+      <Header/>
+      
+      <Footer/>
+    </>
   )
 }
 

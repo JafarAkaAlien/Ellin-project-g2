@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #F4F6FA;
+    display: flex;
+    justify-content: center;
+}
+
+.esas{
+    width: 88%;
+    height: 100vh;
+    background-color: #F4F6FA;
+    display: flex;
+    flex-direction: column;
+    .bir{
+        width: 100%;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        .ugur{
+            width: 60%;
+            height: 70%;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            h1{
+                font-weight: 700;
+                font-size: 40px;
+            }
+            p{
+             color: rgba(100, 116, 139, 1);
+             font-weight: 400;
+             font-size: 18px;
+            }
+        }
+    }
+    .iki{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .card1{
+            width: 300px;
+            height: 280px;
+            background-color: #FFFFFFCC;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            .foto{
+                width: 65px;
+                height: 65px;
+                object-fit: cover;
+            
+            }
+            .bosluq{
+                width: 100%;
+                height: 30px;
+            }
+            .yazi{
+                width: 200px;
+                height: 110px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                h1{
+                    font-size: 38px;
+                    color: #FB64B6;
+                    font-weight: 700;
+                }
+                svg{
+                    position: relative;
+                    top: 4px;
+                    margin-right: 5px;
+                }
+                .mavi{
+                    color: #51A2FF;
+                }
+                .narinc{
+                    color: #FF8904;
+                }
+                .yasil{
+                    color: #00D492;
+                }
+                p{
+                    font-size: 16px;
+                    color: #64748B;
+                }
+                span{
+                    font-size: 16px;
+                    color: #00C950;
+                }
+            }
+        }
+    }
+    .uc{
+        width: 100%;
+        height: 140px;
+        background-color: #FFFFFF80;
+        border-radius: 16px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .qutu{
+            width: 120px;
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            text-align: center;
+            h1{
+                font-weight: 700;
+                color: #5B21B6;
+                font-size: 30px;
+            }
+            p{
+                font-size: 16px;
+                color: #64748B;
+            }
+        }
+    }
+}
