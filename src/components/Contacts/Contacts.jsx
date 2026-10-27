@@ -73,7 +73,9 @@ function Contacts() {
           <label>Mesaj</label>
           <textarea placeholder="Mesajınızı yazın..." />
 
-          <button type="submit">Göndər</button>
+          <button type="submit">
+ <i class="fa-light fa-paper-plane"></i> Göndər
+</button>
         </form>
         </div>
     </div>
