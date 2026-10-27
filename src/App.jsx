@@ -1,8 +1,9 @@
 import React from 'react'
+import Info from './components/Info/Info.jsx'
 
 const App = () => {
   return (
-    <div>Salam G1, ugurlar</div>
+    <Info />
   )
 }
 
