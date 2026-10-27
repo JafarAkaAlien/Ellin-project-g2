@@ -1,0 +1,171 @@
+.enenkeDiv {
+    width: 100%;
+    min-height: 450px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 40px;
+
+}
+
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.solIlkUst {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    p {
+        color: #BBC2CC;
+    }
+}
+
+.ellininki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.icon {
+    display: flex;
+    gap: 16px;
+
+    button {
+        width: 30px;
+        height: 27px;
+        background-color: rgb(199, 166, 229);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.icc {
+    font-size: 17px;
+}
+
+.Kurslar {
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    h1 {
+        font-size: 23px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        color: #8A96BB;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.Kecidler {
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    h1 {
+        font-size: 23px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        color: #8A96BB;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.Elaqe {
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    h1 {
+        font-size: 23px;
+    }
+}
+
+.son {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 350px;
+
+    i {
+        font-size: 16px;
+        color: blueviolet;
+    }
+}
+
+.Biricc {
+    position: relative;
+    right: 24px;
+    display: flex;
+    gap: 2px;
+}
+
+.Ikicc {
+    position: relative;
+    right: 22px;
+}
+
+.Ucicc {
+    position: relative;
+    right: 40px;
+    display: flex;
+    gap: 22px;
+}
+
+.enAlt {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eaeaea;
+    padding: 25px 0;
+    margin-top: 40px;
+
+    p {
+        color: #8A96BB;
+        font-size: 13px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        margin: 0;
+        padding: 0;
+        color: #8A96BB;
+
+
+        li {
+            font-size: 14px;
+        }
+    }
+}
