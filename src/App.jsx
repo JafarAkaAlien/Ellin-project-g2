@@ -1,8 +1,16 @@
 import React from 'react'
+import Header from './components/Header/Header.jsx'
+import './components/Header/Header.css'
+import Footer from './components/Footer/Footer.jsx'
+
 
 const App = () => {
   return (
-    <div>Salam G1, ugurlar</div>
+    <>
+      <Header/>
+      
+      <Footer/>
+    </>
   )
 }
 
