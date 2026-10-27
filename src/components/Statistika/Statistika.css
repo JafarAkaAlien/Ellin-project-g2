@@ -1,30 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-section{
+section {
     width: 100%;
-    height: 100vh;
+    height: 700px;
     background-color: #F4F6FA;
     display: flex;
     justify-content: center;
 }
 
-.esas{
+.esas {
     width: 88%;
-    height: 100vh;
+    height: 3000px;
     background-color: #F4F6FA;
     display: flex;
     flex-direction: column;
-    .bir{
+
+    .bir {
         width: 100%;
         height: 130px;
         display: flex;
         justify-content: center;
         align-items: end;
-        .ugur{
+
+        .ugur {
             width: 60%;
             height: 70%;
             text-align: center;
@@ -32,24 +34,28 @@ section{
             display: flex;
             flex-direction: column;
             gap: 7px;
-            h1{
+
+            h1 {
                 font-weight: 700;
                 font-size: 40px;
             }
-            p{
-             color: rgba(100, 116, 139, 1);
-             font-weight: 400;
-             font-size: 18px;
+
+            p {
+                color: rgba(100, 116, 139, 1);
+                font-weight: 400;
+                font-size: 18px;
             }
         }
     }
-    .iki{
+
+    .iki {
         width: 100%;
         height: 400px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .card1{
+
+        .card1 {
             width: 300px;
             height: 280px;
             background-color: #FFFFFFCC;
@@ -58,54 +64,65 @@ section{
             flex-direction: column;
             align-items: center;
             gap: 10px;
-            .foto{
+
+            .foto {
                 width: 65px;
                 height: 65px;
                 object-fit: cover;
-            
+
             }
-            .bosluq{
+
+            .bosluq {
                 width: 100%;
                 height: 30px;
             }
-            .yazi{
+
+            .yazi {
                 width: 200px;
                 height: 110px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
                 align-items: center;
-                h1{
+
+                h1 {
                     font-size: 38px;
                     color: #FB64B6;
                     font-weight: 700;
                 }
-                svg{
+
+                svg {
                     position: relative;
                     top: 4px;
                     margin-right: 5px;
                 }
-                .mavi{
+
+                .mavi {
                     color: #51A2FF;
                 }
-                .narinc{
+
+                .narinc {
                     color: #FF8904;
                 }
-                .yasil{
+
+                .yasil {
                     color: #00D492;
                 }
-                p{
+
+                p {
                     font-size: 16px;
                     color: #64748B;
                 }
-                span{
+
+                span {
                     font-size: 16px;
                     color: #00C950;
                 }
             }
         }
     }
-    .uc{
+
+    .uc {
         width: 100%;
         height: 140px;
         background-color: #FFFFFF80;
@@ -113,19 +130,22 @@ section{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        .qutu{
+
+        .qutu {
             width: 120px;
             height: 80px;
             display: flex;
             flex-direction: column;
             gap: 5px;
             text-align: center;
-            h1{
+
+            h1 {
                 font-weight: 700;
                 color: #5B21B6;
                 font-size: 30px;
             }
-            p{
+
+            p {
                 font-size: 16px;
                 color: #64748B;
             }

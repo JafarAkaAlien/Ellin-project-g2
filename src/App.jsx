@@ -1,17 +1,21 @@
-import React from 'react'
-import Header from './components/Header/Header.jsx'
-import './components/Header/Header.css'
-import Footer from './components/Footer/Footer.jsx'
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import Statistika from './components/Statistika/Statistika';
+import Terefdashlar from './components/Terefdashlar/Terefdashlar';
+import Footer from './components/Footer/Footer';
+import Contacts from './components/Contacts/Contacts';
 
-
-const App = () => {
+function App() {
   return (
-    <>
-      <Header/>
-      
-      <Footer/>
-    </>
-  )
+    <div>
+      <Header />
+      <Hero />
+      <Statistika />
+      <Terefdashlar />
+      <Contacts/>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;

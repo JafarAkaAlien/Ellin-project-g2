@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  height: 500px;
   padding: 80px 20px;
   background-color: #F4F6FA;
   text-align: center;
@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 900px;
 }
 
 .hero-badge {
