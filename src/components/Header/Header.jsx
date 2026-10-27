@@ -8,12 +8,11 @@ const Header = () => {
      <div className='enke-div'>
       <div className='foot'>
         <div className='sol-logo'>
-          <div className='solyan'> <button><img src={E} alt="" /></button></div>
+          <div className='solyan'> <img src={E} alt="" /></div>
           <div className='ustxet'>
-            <h1>ELLIN MMC</h1>
+            <h1 className="hash1">ELLIN MMC</h1>
             <p>Peşə Hazırlıq Mərkəzi</p>
           </div>
-
         </div>
         <div className='nav-divi'>
           <ul>
@@ -26,8 +25,8 @@ const Header = () => {
           </ul>
         </div>
         <div className='sag-btn'>
-         <i class="fa-regular fa-moon">  </i>
-         <i class="fa-solid fa-plus"></i>
+         <i className=" ay fa-regular fa-moon">  </i>
+         <i className=" ustegel fa-solid fa-plus"></i>
           <button className='daxil'>Daxil ol</button>
           <button className='deyis'>Qeydiyyat</button>
         </div>

@@ -1,15 +1,15 @@
 .enenkeDiv {
     width: 100%;
     min-height: 450px;
-    margin-top: 180px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
     padding: 0 40px;
 
-}
 
+}
 
 .footer-top {
     display: flex;
@@ -17,15 +17,6 @@
     width: 100%;
 }
 
-.solIlkUst {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-
-    p {
-        color: #BBC2CC;
-    }
-}
 
 .ellininki {
     display: flex;
@@ -39,6 +30,7 @@
 .icon {
     display: flex;
     gap: 16px;
+
 
     button {
         width: 30px;
